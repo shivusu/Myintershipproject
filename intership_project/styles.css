@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background: linear-gradient(135deg, #4CAF50, #007BFF);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #E74C3C; /* Change to your desired button color */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #C0392B; /* Darker shade of your button color on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade of the button color on hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.container p {
+    font-size: 1.6rem;
+}
+
+
+/* Add more styles for other sections as needed */
+
+/* Add media queries for responsive design as necessary */
